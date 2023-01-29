@@ -27,5 +27,8 @@ class BingoSeed extends Seeder
         Bingo::firstOrCreate(['text' => 'Er det gratis?']);
         Bingo::firstOrCreate(['text' => 'Trader du?']);
         Bingo::firstOrCreate(['text' => 'Hva tenker du om MPCC?']);
+        Bingo::firstOrCreate(['text' => 'Hva er prisen for formueforum?']);
+        Bingo::firstOrCreate(['text' => 'Har du utdanning']);
+        Bingo::firstOrCreate(['text' => 'Bør jeg velge XXX utdanning?']);
     }
 }
