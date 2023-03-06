@@ -35,6 +35,8 @@ class BingoSeed extends Seeder
         Bingo::firstOrCreate(['text' => 'Hva heter katten?']);
         Bingo::firstOrCreate(['text' => 'I følge skattelistene tjente du...']);
         Bingo::firstOrCreate(['text' => 'Fortsatt tro på NOM?']);
+        Bingo::firstOrCreate(['text' => 'Bomma på NOM?']);
+        Bingo::firstOrCreate(['text' => 'Hvorfor anbefalte du NOM?']);
 
     }
 }
